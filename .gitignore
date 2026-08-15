@@ -1,0 +1,24 @@
+# Python & Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Databases & Logs
+database/localos.db
+database/*.sqlite
+database/*.db
+*.log
+
+# Node & Frontend
+ui/dashboard/node_modules/
+ui/dashboard/dist/
+.npm
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
